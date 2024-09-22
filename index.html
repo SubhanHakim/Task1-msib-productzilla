@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1 | Subhan Hakim</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav-list">
+      <a href="" class="btn-second">Page Help</a>
+    </nav>
+    <section id="hero" class="hero">
+      <div class="container">
+        <a href="">
+          <img src="assets/logo.svg" alt="" />
+        </a>
+        <div>
+          <h1 class="head-1">Websites for you and your projects.</h1>
+          <h2 class="head-2">
+            Hosted directly from your
+            <span>GitHub Repository</span> Just edit, push, and your changes are
+            live.
+          </h2>
+        </div>
+        <div id="slideshow">
+          <div>
+            <img
+              src="assets/microsoft.png"
+              alt=""
+              class="slide"
+              width="893px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tutorial Section -->
+    <section
+      id="tutorial"
+      class="container-fluid"
+      style="background-color: #f5f5f5"
+    >
+      <div class="container">
+        <div class="content">
+          <h1 class="head-1-light">
+            Ready to get started? Build your own site from scratch or generate
+            one for your project.
+          </h1>
+          <h2 class="head-2-light">
+            You get one site per GitHub account and organization, <br />and
+            unlimited project sites. Let‘s get started.
+          </h2>
+          <div class="btn-center">
+            <ul class="tabs btn-style-1">
+              <li class="">
+                <a href="" style="color: white; text-decoration: none"
+                  >User or organization site</a
+                >
+              </li>
+            </ul>
+            <ul class="tabs btn-style-2">
+              <li>
+                <a href="" style="color: #222; text-decoration: none"
+                  >Project Site</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div class="card-section">
+            <div style="position: relative">
+              <div class="circle"><h2>1</h2></div>
+              <div class="grid-card">
+                <div class="left-content">
+                  <h4 class="head-4">Create a Repository</h4>
+                  <p style="width: 100%;">
+                    Head over to
+                    <a href="" style="text-decoration: none">GitHub</a>and
+                    <a href="" style="text-decoration: none"
+                      >create a new public repository</a
+                    >
+                    name <em>username</em>.github.io, where <em>username</em> is
+                    your username ( or organization name ) on GitHub
+                  </p>
+                  <p style="font-size: 14px">
+                    If the first part of the repository doesn’t exactly match
+                    your username, it won’t work, so make sure to get it right.
+                  </p>
+                </div>
+                <div class="right-content">
+                  <img
+                    style="width: 100%; height: 100%"
+                    src="https://pages.github.com/images/user-repo@2x.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top: 70px; position: relative">
+            <div class="circle"><h2>2</h2></div>
+            <div class="step-card">
+              <div>
+                <h1>What git client are you using?</h1>
+              </div>
+              <div class="btn-center">
+                <ul class="tabs btn-style-1">
+                  <li>
+                    <a href="" style="color: #fff; text-decoration: none"
+                      >A Terminal</a
+                    >
+                  </li>
+                </ul>
+                <ul class="tabs btn-style-2">
+                  <li>
+                    <a href="" style="color: #222; text-decoration: none"
+                      >GitHub Desktop</a
+                    >
+                  </li>
+                </ul>
+                <ul class="tabs btn-style-2">
+                  <li>
+                    <a href="" style="color: #222; text-decoration: none"
+                      >I don't Know</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top: 70px; position: relative">
+            <div class="circle"><h2>3</h2></div>
+            <div class="step-card">
+              <div>
+                <h1>Clone the repository</h1>
+              </div>
+              <div>
+                <p style="color: #333; font-size: 18px">
+                  Go to the folder where you want to store your project, and
+                  clone the new repository:
+                </p>
+              </div>
+              <div class="terminal">
+                <div class="header"></div>
+                <div class="shell">
+                  <p>
+                    <span class="path">~</span>
+                    <span class="prompt">$</span>git clone
+                    https://github.com/<em>username</em>/<em>username</em>.github.io
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top: 70px; position: relative">
+            <div class="circle"><h2>4</h2></div>
+            <div class="step-card">
+              <div>
+                <h1>Hello World</h1>
+              </div>
+              <div>
+                <p style="color: #333; font-size: 18px">
+                  Enter the project folder and add an index.html file:
+                </p>
+              </div>
+              <div class="terminal">
+                <div class="header"></div>
+                <div class="shell">
+                  <p>
+                    <span class="path">~</span>
+                    <span class="prompt">$</span>cd <em>username</em>.github.io
+                  </p>
+                  <p>
+                    <span class="path">~</span>
+                    <span class="prompt">$</span>echo "Hello World" > index.html
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top: 70px; position: relative">
+            <div class="circle"><h2>5</h2></div>
+            <div class="step-card">
+              <div>
+                <h1>Push It</h1>
+              </div>
+              <div>
+                <p style="color: #333; font-size: 18px">
+                  Add, commit, and push your changes
+                </p>
+              </div>
+              <div class="terminal">
+                <div class="header"></div>
+                <div class="shell">
+                  <p>
+                    <span class="path">~</span>
+                    <span class="prompt">$</span>git add --all
+                  </p>
+                  <p>
+                    <span class="path">~</span>
+                    <span class="prompt">$</span>git commit -m "Initial commit"
+                  </p>
+                  <p>
+                    <span class="path">~</span>
+                    <span class="prompt">$</span>git push -u origin main
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            style="margin-top: 70px; margin-bottom: 70px; position: relative"
+          >
+            <div class="circle"><h2>6</h2></div>
+            <div class="step-card">
+              <div>
+                <h1>…and you're done!</h1>
+              </div>
+              <div>
+                <p style="color: #333; font-size: 18px">
+                  Fire up a browser and go to https://username.github.io.
+                </p>
+              </div>
+              <div class="circle-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32px"
+                  height="32px"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    fill="currentColor"
+                    style="color: #4183c4"
+                    d="m232.49 80.49l-128 128a12 12 0 0 1-17 0l-56-56a12 12 0 1 1 17-17L96 183L215.51 63.51a12 12 0 0 1 17 17Z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blogging -->
+    <section id="next-steps" class="container-fluid" style="margin-top: 90px">
+      <div>
+        <h1 class="head-1-light">
+          Ready to get started? Build your own site from scratch or generate one
+          for your project.
+        </h1>
+      </div>
+      <div class="flex-card">
+        <div class="card-icon">
+          <div class="circle-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32px"
+              height="32px"
+              style="color: #4183c4"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83l3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"
+              />
+            </svg>
+          </div>
+          <div>
+            <h2 style="font-size: 30px; color: #4183c4; font-weight: 300">
+              Blogging with Jekyll
+            </h2>
+            <p class="subhead-icon">
+              Using <a href="">Jekyll</a>, you can blog using beautiful Markdown
+              syntax, and without having to deal with any databases.
+              <a href="">Learn how to set up Jekyll.</a>
+            </p>
+          </div>
+        </div>
+        <div class="card-icon">
+          <div class="circle-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32px"
+              height="32px"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill="none"
+                stroke="#4183c4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m5.5 10.5l5-5M3.73 6.61L2.67 7.67a4 4 0 1 0 5.66 5.66l1.06-1.06m2.88-2.88l1.06-1.06a4 4 0 1 0-5.66-5.66L6.61 3.73"
+              />
+            </svg>
+          </div>
+          <div>
+            <h2 style="font-size: 30px; color: #4183c4; font-weight: 300">
+              Custom URLs
+            </h2>
+            <p class="subhead-icon">
+              Want to use your own custom domain for a GitHub Pages site? Just
+              create a file named CNAME and include your URL.
+              <a href="">Read More</a>
+            </p>
+          </div>
+        </div>
+        <div class="card-icon">
+          <div class="circle-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32px"
+              height="32px"
+              viewBox="0 0 32 32"
+              style="color: #4183c4"
+            >
+              <path
+                fill="currentColor"
+                d="M19 10h7v2h-7zm0 5h7v2h-7zm0 5h7v2h-7zM6 10h7v2H6zm0 5h7v2H6zm0 5h7v2H6z"
+              />
+              <path
+                fill="currentColor"
+                d="M28 5H4a2 2 0 0 0-2 2v18a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2M4 7h11v18H4Zm13 18V7h11v18Z"
+              />
+            </svg>
+          </div>
+          <div>
+            <h2 style="font-size: 30px; color: #4183c4; font-weight: 300">
+              Guides
+            </h2>
+            <p class="subhead-icon">
+              Learn how to create custom 404 pages, use submodules, and
+              <a href="">learn more about GitHub Pages.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+      <section class="container-fluid">
+        <div class="divide"></div>
+        <div class="footer-flex">
+          <div style="display: flex; gap: 12px">
+            <span>© 2024 GitHub, Inc</span>
+            <ul class="footer-link">
+              <li><a href="" class="footer-text">Teams</a></li>
+              <li><a href="" class="footer-text">Privacy</a></li>
+              <li><a href="" class="footer-text">Security</a></li>
+              <li><a href="" class="footer-text">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"
+              />
+            </svg>
+          </div>
+          <div>
+            <ul class="footer-link">
+              <li><a href="" class="footer-text">Status</a></li>
+              <li><a href="" class="footer-text">Api</a></li>
+              <li><a href="" class="footer-text">Traning</a></li>
+              <li><a href="" class="footer-text">Shop</a></li>
+              <li><a href="" class="footer-text">Blog</a></li>
+              <li><a href="" class="footer-text">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
